@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  padding: 22px 100px;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+.nav {
+  display: inline-block;
+  margin-left: 195px;
+  vertical-align: middle;
+}
+
+.list-item {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.book-now-btn,
+.discover-now-btn {
+  background-color: #ff5403;
+  font-size: 18px;
+  color: #fff;
+}
+
+.book-now-btn {
+  padding: 13px 50px;
+  margin-left: 195px;
+}
+
+.discover-now-btn {
+  display: inline-block;
+  padding: 22px 64px;
+  margin-left: 0px;
+}
+
+.banner-bg-container {
+  width: 100%;
+  height: 722px;
+  background-image: url("../images/banner_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  padding-top: 190px;
+}
+
+.title {
+  font-size: 96px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 115px;
+}
+
+.desc {
+  font-size: 20px;
+  color: #fff;
+  margin: 5px 0px 79px 0px;
+}
+
+.top-hotels {
+  width: 1312px;
+  margin: 100px auto 120px auto;
+  padding: 30px 0px;
+}
+
+.card {
+  width: 404px;
+  display: inline-block;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #000;
+  margin: 40px 0px 25px 0px;
+}
+
+.reviews img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.reviews p {
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 4px;
+  font-weight: 300;
+}
+
+.location {
+  font-size: 18px;
+  color: #626262;
+  font-weight: 300;
+  margin: 10px 0px;
+  line-height: 170%;
+}
+
+.price {
+  font-size: 18px;
+  color: #020202;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.highlighted {
+  color: #da1212;
+}
+
+.middle {
+  margin: 0px 45px;
+}
